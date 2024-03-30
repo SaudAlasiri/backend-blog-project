@@ -1,9 +1,9 @@
 {
   "name": "backend-blog-project",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "module": "main.js",
-  "type": "module",
   "scripts": {
     "start": "node -r esm server.js",
     "dev": "nodemon -r esm server.js"
@@ -16,6 +16,6 @@
     "esm": "^3.2.25",
     "express": "^4.19.2",
     "mongoose": "^8.2.4"
-  },
-  "description": ""
+  }
+  
 }
